@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"@/*": ["./src/*"],
+			"components/*": ["./components/*"]
+		},
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": false,
+		"noEmit": true,
+		"incremental": true,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"jsx": "preserve",
+		"plugins": [
+			{
+				"name": "next"
+			}
+		]
+	},
+	"include": [
+		"next-env.d.ts",
+		".next/types/**/*.ts",
+		"**/*.ts",
+		"**/*.tsx",
+		"src/app/[lang]/bookmarks/page.jsx",
+		"src/app/[lang]/[userId]/page.jsx"
+, "src/components/atom/Toast.tsx", "src/components/organism/Artwork.tsx", "src/app/[lang]/tos/data.jsx", "src/app/api/auth/route.js", "src/app/api/auth/error/page.jsx", "src/components/organism/nav/AsideNav.jsx", "src/components/organism/nav/Nav.jsx", "src/components/molecule/MagneticLinks.jsx", "src/about-me/page.jsx"	],
+	"exclude": ["node_modules"]
+}
